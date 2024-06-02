@@ -1,0 +1,9 @@
+{
+  "name": "todo-manager-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/todo-manager-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["todo-manager"],
+  "// targets": "to see all targets run: nx show project todo-manager-e2e --web",
+  "targets": {}
+}
