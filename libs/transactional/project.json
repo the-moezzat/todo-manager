@@ -1,0 +1,19 @@
+{
+  "name": "transactional",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/transactional/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project transactional --web",
+  "targets": {
+    "dev": {
+      "executor": "nx:run-commands",
+      "options": {
+        "cwd": "libs/transactional",
+        "commands": [
+          "npx email dev --port 3333"
+        ]
+      }
+    }
+  }
+}
